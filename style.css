@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+}
+
+input{
+    font-size: 120%;
+    border-radius: 0px;
+    border-style: solid;
+    border-color: transparent;
+    margin-top: 2rem;
+}
+
+tr,td{
+    color: white;
+    border-bottom: 1px solid grey;
+    height: 100px;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+h1{
+    color: white;
+}
+
+td li{
+    width: 4rem;
+    font-size: 10rem;
+}
+.desc::first-letter{
+    text-transform: uppercase;
+}
+
+.desc{
+    font-size: 125%;
+    width: 1rem;
+}
+
+.emoji{
+    font-size: 300%;
+    width: 1rem;
+}
+
+.aliases::first-letter{
+    text-transform: uppercase;
+}
+
+.aliases{
+    font-size: 125%;
+    width: 1rem;
+}
